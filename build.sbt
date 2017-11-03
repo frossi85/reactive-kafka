@@ -7,7 +7,7 @@ val akkaVersion = sys.env.get("AKKA_SERIES") match {
   case Some("2.5") => "2.5.6"
   case _ => "2.4.20"
 }
-val kafkaVersion = "0.11.0.1"
+val kafkaVersion = "1.0.0"
 
 val kafkaClients = "org.apache.kafka" % "kafka-clients" % kafkaVersion
 
